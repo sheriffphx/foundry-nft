@@ -1,0 +1,16 @@
+{
+    "name": "Dugie NFT #1",
+    "description": "The first NFT minted for the Dugie collection on Sepolia.",
+    "image": "https://ipfs.io/ipfs/QmVMQQ9FsU9C7tgqkNGSpMauB92GQ5AxuRGQt8YEmkPzKe",
+    "external_url": "https://oxveytic.netlify.app/",
+    "attributes": [
+        {
+            "trait_type": "Artist",
+            "value": "Sheriff_Phx"
+        },
+        {
+            "trait_type": "Edition",
+            "value": "Sepolia Launch"
+        }
+    ]
+}

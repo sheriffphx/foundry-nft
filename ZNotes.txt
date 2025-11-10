@@ -1,0 +1,25 @@
+an NFT is known as a non-fungible token. It's a token standard. And it's a unique one. 
+No same NFT can occur twice . Sold on DEXes like opensea.io etc. Decentraliztion.
+The standard for NFTs is ERC-721(basis). There is also another one ERC-1155(semi-fungible).
+Each token in721 is unique with a specific Unique Id. Token URI - a universal URI that contains the 
+description of each ERC-721 NFT. 
+To make an NFT :
+    * Get IPFS
+    * Add tokenURI.json file to IPFS
+    * Add IPFS URI to your NFT URI
+URI : "UNIFORM RESOURCE IDENTIFIER". Every new token minted must point to a specific URI.
+IPFS is a decentralized storage that stores data on nodes. each node helps to look up the paafticular data
+stored and retrieve it.
+
+covert string to bytes then convert bytes to bytes 32 
+abi.encodePacked(cat), keccak256(encodedCat)
+
+Day 2 of Advanced Foundry 
+
+Develop an NFT 
+NFTs are tokens of ERC-721 standard
+Learnt how to develop NFTs using OpenZeppelin's library
+How to use IPFS for decentralized storing of metadata
+Creating Dynamic NFTs and encoding SVGs to be stored onchain
+Advanced EVM - Opcodes and low-level interactions
+
